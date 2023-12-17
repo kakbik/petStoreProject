@@ -22,7 +22,7 @@ public class PetStore {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long petStoreId;
+	private Long petStoreId;
 	private String petStoreName;
 	private String petStoreAddress;
 	private String petStoreCity;

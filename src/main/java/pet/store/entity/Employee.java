@@ -1,8 +1,5 @@
 package pet.store.entity;
 
-import java.util.HashSet;
-import java.util.Set;
-
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -21,7 +18,7 @@ public class Employee {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long employeeId;
+	private Long employeeId;
 	private String employeeFirstName;
 	private String employeeLastName;
 	private String employeePhone;
